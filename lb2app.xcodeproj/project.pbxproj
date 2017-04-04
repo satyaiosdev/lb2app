@@ -15,6 +15,14 @@
 		06A5820D1E8971E000D6F158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A5820B1E8971E000D6F158 /* LaunchScreen.storyboard */; };
 		06A582181E8971E000D6F158 /* lb2appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A582171E8971E000D6F158 /* lb2appTests.m */; };
 		06A582231E8971E000D6F158 /* lb2appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A582221E8971E000D6F158 /* lb2appUITests.m */; };
+		06A582311E89722400D6F158 /* CITYBIKEOGD.json in Resources */ = {isa = PBXBuildFile; fileRef = 06A582301E89722400D6F158 /* CITYBIKEOGD.json */; };
+		06A582341E8977C600D6F158 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A582331E8977C600D6F158 /* CoreLocation.framework */; };
+		06A582361E8977E300D6F158 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A582351E8977E300D6F158 /* MapKit.framework */; };
+		06A582391E89796700D6F158 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A582381E89796700D6F158 /* Annotation.m */; };
+		06A5823D1E897FF100D6F158 /* Citybike.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A5823A1E897FF100D6F158 /* Citybike.png */; };
+		06A5823E1E897FF100D6F158 /* Citybike@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A5823B1E897FF100D6F158 /* Citybike@2x.png */; };
+		06A5823F1E897FF100D6F158 /* Citybike@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A5823C1E897FF100D6F158 /* Citybike@3x.png */; };
+		06A582411E89877F00D6F158 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A582401E89877F00D6F158 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,15 @@
 		06A5821E1E8971E000D6F158 /* lb2appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lb2appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A582221E8971E000D6F158 /* lb2appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lb2appUITests.m; sourceTree = "<group>"; };
 		06A582241E8971E000D6F158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06A582301E89722400D6F158 /* CITYBIKEOGD.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CITYBIKEOGD.json; sourceTree = "<group>"; };
+		06A582331E8977C600D6F158 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		06A582351E8977E300D6F158 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		06A582371E89796700D6F158 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		06A582381E89796700D6F158 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		06A5823A1E897FF100D6F158 /* Citybike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Citybike.png; sourceTree = "<group>"; };
+		06A5823B1E897FF100D6F158 /* Citybike@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Citybike@2x.png"; sourceTree = "<group>"; };
+		06A5823C1E897FF100D6F158 /* Citybike@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Citybike@3x.png"; sourceTree = "<group>"; };
+		06A582401E89877F00D6F158 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A582361E8977E300D6F158 /* MapKit.framework in Frameworks */,
+				06A582341E8977C600D6F158 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,7 @@
 				06A582161E8971E000D6F158 /* lb2appTests */,
 				06A582211E8971E000D6F158 /* lb2appUITests */,
 				06A581FB1E8971E000D6F158 /* Products */,
+				06A582321E8977C600D6F158 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +121,13 @@
 		06A581FC1E8971E000D6F158 /* lb2app */ = {
 			isa = PBXGroup;
 			children = (
+				06A582401E89877F00D6F158 /* icon.png */,
+				06A5823A1E897FF100D6F158 /* Citybike.png */,
+				06A5823B1E897FF100D6F158 /* Citybike@2x.png */,
+				06A5823C1E897FF100D6F158 /* Citybike@3x.png */,
+				06A582301E89722400D6F158 /* CITYBIKEOGD.json */,
+				06A582371E89796700D6F158 /* Annotation.h */,
+				06A582381E89796700D6F158 /* Annotation.m */,
 				06A582001E8971E000D6F158 /* AppDelegate.h */,
 				06A582011E8971E000D6F158 /* AppDelegate.m */,
 				06A582031E8971E000D6F158 /* ViewController.h */,
@@ -138,6 +165,15 @@
 				06A582241E8971E000D6F158 /* Info.plist */,
 			);
 			path = lb2appUITests;
+			sourceTree = "<group>";
+		};
+		06A582321E8977C600D6F158 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06A582351E8977E300D6F158 /* MapKit.framework */,
+				06A582331E8977C600D6F158 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,8 +281,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A5823D1E897FF100D6F158 /* Citybike.png in Resources */,
+				06A5823F1E897FF100D6F158 /* Citybike@3x.png in Resources */,
 				06A5820D1E8971E000D6F158 /* LaunchScreen.storyboard in Resources */,
+				06A5823E1E897FF100D6F158 /* Citybike@2x.png in Resources */,
+				06A582411E89877F00D6F158 /* icon.png in Resources */,
 				06A5820A1E8971E000D6F158 /* Assets.xcassets in Resources */,
+				06A582311E89722400D6F158 /* CITYBIKEOGD.json in Resources */,
 				06A582081E8971E000D6F158 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +315,7 @@
 			files = (
 				06A582051E8971E000D6F158 /* ViewController.m in Sources */,
 				06A582021E8971E000D6F158 /* AppDelegate.m in Sources */,
+				06A582391E89796700D6F158 /* Annotation.m in Sources */,
 				06A581FF1E8971E000D6F158 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +548,7 @@
 				06A582291E8971E000D6F158 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06A5822A1E8971E000D6F158 /* Build configuration list for PBXNativeTarget "lb2appTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +557,7 @@
 				06A5822C1E8971E000D6F158 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06A5822D1E8971E000D6F158 /* Build configuration list for PBXNativeTarget "lb2appUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +566,7 @@
 				06A5822F1E8971E000D6F158 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
